@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #222;
+  background: #eee;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+.app {
+  text-align: center;
+  background: #fff;
+  border-radius: 20px;
+  width: min(90%, 500px);
+  padding: 30px;
+  box-shadow: 0 5px 20px #0001;
+}
+
+.app__title {
+  margin-bottom: 30px;
+}
+
+.greeting, .counter {
+  background: #f3f3f3;
+  border-radius: 15px;
+  margin-top: 25px;
+  padding: 20px;
+}
+
+.greeting__input {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  padding: 12px;
+}
+
+.greeting__button, .counter__buttons button {
+  color: #fff;
+  cursor: pointer;
+  background: #222;
+  border: 0;
+  border-radius: 8px;
+  margin-top: 12px;
+  padding: 10px 16px;
+}
+
+.greeting__result {
+  font-weight: bold;
+}
+
+.counter__value {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.counter__buttons {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  display: flex;
+}
+
+.counter__buttons button {
+  margin-top: 0;
+}
+/*# sourceMappingURL=parcel-project.3a01df49.css.map */
